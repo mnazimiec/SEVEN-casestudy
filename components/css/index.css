@@ -15,3 +15,20 @@
   margin: 20px auto;
   text-align: center;
 }
+
+.heading-section h2 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.heading-section h3 {
+  font-size: 24px;
+  font-style: italic; 
+  margin: 10px 0 0;
+}
+
+.heading-section h4 {
+  font-size: 36px
+  margin: 0;
+  padding: 10px;
+}
