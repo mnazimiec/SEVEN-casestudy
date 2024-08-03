@@ -1,1 +1,9 @@
-
+.body {
+  max-width: 600px;
+  line-height: 1.6;
+  font-size: 18px; 
+  color: #000000
+  font-family: 'Georgia', serif;
+  margin: 20px auto;
+  text-align: center;
+}
