@@ -6,6 +6,22 @@
   box-sizing: border-box;
 }
 
+.eb-garamond-main {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+}
+
+.open-sans-secondary {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 .body {
   max-width: 600px;
   line-height: 1.6;
