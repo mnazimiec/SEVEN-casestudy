@@ -1,171 +1,187 @@
-/* General Component Styling */
-.component-section {
-    margin: 40px 0;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background-color: #f9f9f9;
+/* General Typography and Body Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #0E0E0D; /* Light Black */
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
 }
 
-/* Header Component Styles */
-#header-component header {
-    background-color: #f8f8f8;
-    padding: 10px;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'EB Garamond', serif;
+    color: #203D26; /* Brand Green */
 }
 
-#header-component .logo img {
+a {
+    color: #203D26;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0E0E0D; /* Light Black */
+}
+
+/* Page Header */
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
     height: 50px;
 }
 
-#header-component nav ul {
+.header-nav ul {
     list-style: none;
     display: flex;
+    margin: 0;
     padding: 0;
 }
 
-#header-component nav ul li {
-    margin-right: 20px;
+.header-nav ul li {
+    margin: 0 1rem;
 }
 
-#header-component nav ul li a {
-    text-decoration: none;
-    color: #333;
+.header-nav ul li a {
+    font-weight: normal;
 }
 
-#header-component .book-btn {
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-    border: none;
-    cursor: pointer;
+.header-button .btn {
+    background-color: #203D26; /* Brand Green */
+    color: #FFF;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
 }
 
-/* Hero Component Styles */
-#hero-component .hero {
-    text-align: center;
-    background: url("../images/hero-bg.jpg") no-repeat center center;
+.header-button .btn:hover {
+    background-color: #0E0E0D; /* Light Black */
+}
+
+/* Cover Section */
+.cover-section {
+    background-image: url('cover-image.jpg');
     background-size: cover;
-    color: white;
-    padding: 80px 20px;
-    border-radius: 5px;
-}
-
-#hero-component .hero h1 {
-    font-size: 2.5em;
-}
-
-#hero-component .hero p {
-    font-size: 1.2em;
-}
-
-#hero-component .learn-more-btn {
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-#hero-component .learn-more-btn:hover {
-    background-color: #555;
-}
-
-/* News Updates Component Styles */
-#news-updates-component .news-updates {
-    padding: 40px 20px;
-    background-color: #f8f8f8;
-    border-radius: 5px;
-}
-
-#news-updates-component h2 {
+    background-position: center;
     text-align: center;
-    margin-bottom: 30px;
+    padding: 100px 20px;
+    color: #FFF;
 }
 
-#news-updates-component .news-item {
-    margin-bottom: 20px;
+.cover-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.cover-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cover-btn {
+    background-color: #203D26; /* Brand Green */
+    padding: 1rem 2rem;
+    border-radius: 4px;
+}
+
+.cover-btn:hover {
+    background-color: #0E0E0D; /* Light Black */
+}
+
+/* News & Updates Section */
+.news-updates {
+    padding: 2rem;
+    background-color: #FFF;
+}
+
+.news-updates h2 {
     text-align: center;
+    color: #203D26;
 }
 
-#news-updates-component .news-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 15px;
-}
-
-#news-updates-component .news-item h3 {
-    font-size: 1.5em;
-    margin-top: 15px;
-}
-
-#news-updates-component .news-item p {
-    font-size: 1em;
-}
-
-#news-updates-component .news-item .date {
-    color: #999;
-    font-size: 0.9em;
-    margin-bottom: 15px;
-}
-
-#news-updates-component .read-more-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-#news-updates-component .read-more-btn:hover {
-    background-color: #555;
-}
-
-/* Community Partners Component Styles */
-#community-partners-component .community-partners {
-    padding: 40px 20px;
-    text-align: center;
-    background-color: #e8e8e8;
-    border-radius: 5px;
-}
-
-#community-partners-component h2 {
-    margin-bottom: 30px;
-}
-
-#community-partners-component .carousel {
+.news-item {
     display: flex;
-    justify-content: center;
-    overflow-x: auto;
+    margin-top: 2rem;
 }
 
-#community-partners-component .carousel img {
-    margin: 0 10px;
-    height: 80px;
-    border-radius: 5px;
+.news-item img {
+    width: 200px;
+    height: 120px;
+    margin-right: 1rem;
 }
 
-/* Footer Component Styles */
-#footer-component footer {
-    background-color: #333;
-    color: white;
-    padding: 20px;
+.news-content h3 {
+    margin-top: 0;
+}
+
+.news-content p {
+    font-size: 0.9rem;
+}
+
+.date {
+    display: block;
+    font-size: 0.8rem;
+    color: #777;
+}
+
+/* Partners Section */
+.partners-section {
+    padding: 2rem;
     text-align: center;
-    border-radius: 5px;
+    background-color: #f5f5f5;
 }
 
-#footer-component nav ul {
+.partners-carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+.partners-carousel img {
+    height: 50px;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.partners-carousel img:hover {
+    opacity: 1;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #203D26;
+    color: #FFF;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.site-footer p {
+    margin: 0.5rem 0;
+}
+
+.site-footer nav ul {
     list-style: none;
     padding: 0;
+    margin-top: 1rem;
 }
 
-#footer-component nav ul li {
+.site-footer nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin-right: 1rem;
 }
 
-#footer-component nav ul li a {
-    color: white;
-    text-decoration: none;
+.site-footer nav ul li a {
+    color: #FFF;
+    opacity: 0.9;
+    transition: opacity 0.3s;
+}
+
+.site-footer nav ul li a:hover {
+    opacity: 1;
 }
