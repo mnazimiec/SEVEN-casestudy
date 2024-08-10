@@ -1,242 +1,60 @@
 <!doctype html>
 <html lang="en">
-    
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Components | SEVEN Empathy Case Study</title>
-    <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">  
-    <script src="https://kit.fontawesome.com/cdfad708dc.js" crossorigin="anonymous"></script>
-  </head>
-  
-  <body>  
-    <main>
-      <h1>Web Design System</h1> 
-      <p>
-          This is a collection of components based on my study of the design system of the 
-          <a href=https://www.sevenempathy.com>SEVEN Empathy</a> website.
-      </p>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Components Library | SEVEN Empathy Case Study</title>
+        <link href="styles/normalize.css" rel="stylesheet" />
+        <link href="styles/components.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+            rel="stylesheet"
+        />
+        <script
+            src="https://kit.fontawesome.com/cdfad708dc.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <h1>Components Library</h1>
 
-      <section>
-          <h2>Typography</h2>
+        <!-- Header Component -->
+        <section>
+            <h2>Header Component</h2>
+            <div id="header-component"></div>
+        </section>
 
-          <article>
-              <h3>body</h3>
-              <div>
-              <img src="img/page-section__body-text-1.png" alt="Body Text">
-              </div>
-              <div>
-                  <p class="body">
-                      Today marks the first day of my journey of becoming an instructor for Mental Health First
-                      Aid instructor for Youth (Adults coming soon!) I wish there was a way for you to feel how
-                      I've felt for the past week knowing this is coming up.
-                  </p>
-              </div>
-          </article>
+        <!-- Hero Component -->
+        <section>
+            <h2>Hero Component</h2>
+            <div id="hero-component"></div>
+        </section>
 
-          <article>
-              <h3>h2, h3, h4</h3>
-              <div>
-                  <img src="img/hero-section__heading.png" alt="h2 and h3">
-                  <img src="img/footer-nav-header__title.png" alt="h4">
-              </div>
-              <div class="heading-section">
-                  <h2>Creating Space for Mental Health in Schools</h2>
-                  <h3>for Youth & Adults</h3>
-                  <h4>SEVEN Empathy CLE</h4>
-              </div>
-          </article>
+        <!-- News Updates Component -->
+        <section>
+            <h2>News Updates Component</h2>
+            <div id="news-updates-component"></div>
+        </section>
 
-          <article>
-              <h3>links</h3>
-              <div>
-                  <img src="img/footer-nav-links.png" alt="footer links">
-                  <img src="img/header-nav-list-home.png" alt="header link example">
-              </div>
-              <div>
-                  <h4>footer links</h4>
-                      <a href="#!">About SEVEN</a>
-                      <a href="#!">Reach Out</a>
-                      <a href="#!">Share Your Story</a>
-                      <a href="#!">Contact</a>
-                  <h4>header links</h4>    
-                      <a href="#!">Home</a>
-                      <a href="#!">About</a>
-                      <a href="#!">Share</a>
-                      <a href="#!">News</a>
-                      <a href="#!">Stories</a>
-                      <a href="#!">Resources</a> 
-              </div>
-          </article>
-      </section>
+        <!-- Community Partners Component -->
+        <section>
+            <h2>Community Partners Component</h2>
+            <div id="community-partners-component"></div>
+        </section>
 
-      <section>
-          <h2>Atoms</h2>
+        <!-- Footer Component -->
+        <section>
+            <h2>Footer Component</h2>
+            <div id="footer-component"></div>
+        </section>
 
-          <article>
-              <h3>.wordmark</h3>
-              <div>
-                  <img src="img/header-logo.png" alt="word mark in header">
-              </div>
-
-              <h3>.nav-toggle</h3>
-              <div>
-                 <img src="img/header-nav-list-home.png" alt="navigation toggle"> 
-              </div>
-
-              <h3>.section-heading</h3>
-              <div>
-                  <img src="img/page-section__heading.png" alt="section heading">
-              </div>
-
-              <h3>.action-link</h3>
-              <div>
-                  <img src="img/page-section__arrow-right.png" alt="arrow action link">
-                  <img src="img/page-section__read-more-button.png" alt="button">
-              </div>
-          </article>
-      </section>
-        
-      <section>
-          <h2>Page Header</h2>
-          
-          <article>      
-              <h3>.page-header</h3>
-              <div>
-                  <img src="img/main-header.png" alt="page header">
-              </div>
-          </article>     
-      </section>  
-        
-      <section>
-          <h2>Main Nav</h2>
-
-          <article>
-              <h3>.main-nav__list</h3>
-              <div>
-                  <img src="img/header-nav-list-home.png" alt="nav list">
-                  <img src="img/header-nav-list-about.png" alt="nav list">
-                  <img src="img/header-nav-list-share.png" alt="nav list">
-                  <img src="img/header-nav-list-news.png" alt="nav list">
-                  <img src="img/header-nav-list-stories.png" alt="nav list">
-                  <img src="img/header-nav-list-resources.png" alt="nav list">
-              </div>
-          </article>     
-      </section>
-
-      <section>
-          <h2>Cover Section</h2>
-
-          <article>
-              <h3>.cover-section</h3>
-              <div>
-                  <img src="img/hero-section.png" alt="cover section">
-              </div>
-    
-              <h3>.cover-section__heading</h3>
-              <div>
-                  <img src="img/hero-section__heading.png" alt="cover section heading">
-              </div>
-    
-              <h3>.hero-section__button</h3>
-              <div>
-                  <img src="hero-section__learn-more-button.png" alt="cover section button">
-              </div>
-          </article>    
-      </section>
-
-      <section>
-          <h2>News and Updates Section</h2>
-
-          <article>
-              <h3>.news-and-updates-section</h3>
-              <div>
-                  <img src="img/news-and-updates.png" alt="news and updates section">
-              </div>
-    
-              <h3>.news-and-updates-section__img</h3>
-              <div>
-                  <img src="img/page-section__img-1.png" alt="News and Updates Image 1">
-              </div>
-    
-              <h3>.news-and-updates-section__heading</h3>
-              <div>
-                  <img src="img/page-section__title-1.png" alt="News and Updates Title 1">
-              </div>
-    
-              <h3>.news-and-updates-section__body</h3>
-              <div>
-                  <img src="img/page-section__body-text-1.png" alt="News and Updates Body 1">
-              </div>
-    
-              <h3>.news-and-updates-section__read-more-button</h3>
-              <div>
-                  <img src="img/page-section__read-more-button.png" alt="News and Updates Button">
-              </div>
-    
-              <h3>.news-and-updates-section__date</h3>
-              <div>
-                  <img src="img/page-section__date-1.png" alt="News and Updates Date">
-              </div>
-          </article>    
-      </section>  
-        
-      <section>
-          <h2>Community Partners Section</h2>
-
-          <article>
-              <h3>.community-partners-section</h3>
-              <div>
-                  <img src="img/community-partners.png" alt="Community Partners">
-              </div>
-              
-              <h3>.community-partners-section__heading</h3> 
-              <div>
-                  <img src="img/community-partners__heading.png" alt="Community Partners Heading">
-              </div>
-
-              <h3>.community-partners-section__img</h3>
-              <div>
-                  <img src="img/community-partners__img.png" alt="Community Partners Image">
-              </div>
-
-              <h3>.community-partners-section__logos</h3>
-              <div>
-                  <img src="img/community-partners__logo-1.png" alt="Community Partners Logo 1">
-              </div>
-          </article>
-      </section> 
-
-      <section>
-          <h2>Footer</h2>
-
-          <article>
-              <h3>.footer</h3>
-              <div>
-                  <img src="img/footer-nav.png" alt="Footer">
-              </div>
-
-              <h3>.footer__dedication</h3>
-              <div>
-                  <img src="img/footer-nav-header__dedication.png" alt="Footer Dedication">
-              </div>
-
-              <h3>.footer__title</h3>
-              <div>
-                  <img src="img/footer-nav-header__title.png" alt="Footer Title">
-              </div>
-
-              <h3>.footer__nav-links</h3>
-              <div>
-                  <img src="img/footer-nav-links.png" alt="Footer Links">
-              </div>
-          </article>
-      </section>  
-    </main>
-    
-  </body>
+        <!-- Load Components -->
+        <script src="components/Header.js"></script>
+        <script src="components/Hero.js"></script>
+        <script src="components/NewsUpdates.js"></script>
+        <script src="components/CommunityPartners.js"></script>
+        <script src="components/Footer.js"></script>
+    </body>
 </html>
