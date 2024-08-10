@@ -24,7 +24,7 @@ a:hover {
 
 /* Common Background Image */
 .header-background {
-    background-image: url('../components/img/pexels-aaronmello-176162.jpg');
+    background-image: url('https://raw.githubusercontent.com/mnazimiec/SEVEN-casestudy/main/components/img/pexels-aaronmello-176162.jpg');
     background-size: cover;
     background-position: center;
 }
