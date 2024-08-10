@@ -73,7 +73,7 @@ a:hover {
 
 /* Hero Section */
 .hero-section {
-    background-image: url('hero-bg.jpg');
+    background-image: url('components/img/pexels-aaronmello-176162.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
