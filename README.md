@@ -8,7 +8,7 @@ This is a project for the Web Development course at the Minneapolis College of A
 
 - [Initial Design Study](https://github.com/mnazimiec/SEVEN-casestudy/blob/1c7d7d81f9e38a3578f6e2c6e0b6f3eee427767a/assets/seven-web-design-study.pdf)
 - [Component Library](https://mnazimiec.github.io/SEVEN-casestudy/components/#!)
-- Homepage Recreation
+- [Homepage Recreation](https://mnazimiec.github.io/SEVEN-casestudy/homepage/home.html)
 
 ## Author
 
