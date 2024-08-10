@@ -8,53 +8,67 @@
         <link href="styles/components.css" rel="stylesheet" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-            rel="stylesheet"
-        />
-        <script
-            src="https://kit.fontawesome.com/cdfad708dc.js"
-            crossorigin="anonymous"
-        ></script>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+            rel="stylesheet"/>
     </head>
-    <body>
-        <h1>Components Library</h1>
+    
+<body>
+    <header class="page-header">
+        <div class="logo">
+            <a href="#"><img src="logo.png" alt="SEVEN Empathy Logo"></a>
+        </div>
+        <nav class="header-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-button">
+            <a href="#" class="btn">Get Started</a>
+        </div>
+    </header>
 
-        <!-- Header Component -->
-        <section>
-            <h2>Header Component</h2>
-            <div id="header-component"></div>
-        </section>
+    <section class="cover-section">
+        <h1>Welcome to SEVEN Empathy</h1>
+        <p>Engage with our services to enhance your empathy and understanding.</p>
+        <a href="#" class="btn cover-btn">Learn More</a>
+    </section>
 
-        <!-- Hero Component -->
-        <section>
-            <h2>Hero Component</h2>
-            <div id="hero-component"></div>
-        </section>
+    <section class="news-updates">
+        <h2>News & Updates</h2>
+        <div class="news-item">
+            <img src="update1.jpg" alt="Update Image">
+            <div class="news-content">
+                <h3>New Workshop Available</h3>
+                <p>Join our new workshop on 'Building Empathy in Teams' this summer!</p>
+                <a href="#" class="btn">Read More</a>
+                <span class="date">July 15, 2024</span>
+            </div>
+        </div>
+        <!-- Repeat for other news items -->
+    </section>
 
-        <!-- News Updates Component -->
-        <section>
-            <h2>News Updates Component</h2>
-            <div id="news-updates-component"></div>
-        </section>
+    <section class="partners-section">
+        <h2>Our Partners</h2>
+        <div class="partners-carousel">
+            <img src="partner1.png" alt="Partner Logo">
+            <img src="partner2.png" alt="Partner Logo">
+            <img src="partner3.png" alt="Partner Logo">
+            <!-- Additional logos -->
+        </div>
+    </section>
 
-        <!-- Community Partners Component -->
-        <section>
-            <h2>Community Partners Component</h2>
-            <div id="community-partners-component"></div>
-        </section>
-
-        <!-- Footer Component -->
-        <section>
-            <h2>Footer Component</h2>
-            <div id="footer-component"></div>
-        </section>
-
-        <!-- Load Components -->
-        <script src="components/Header.js"></script>
-        <script src="components/Hero.js"></script>
-        <script src="components/NewsUpdates.js"></script>
-        <script src="components/CommunityPartners.js"></script>
-        <script src="components/Footer.js"></script>
-    </body>
+    <footer class="site-footer">
+        <p>Dedicated to promoting empathy worldwide.</p>
+        <nav>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
 </html>
