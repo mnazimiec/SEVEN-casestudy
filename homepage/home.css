@@ -204,20 +204,40 @@ a:hover {
     margin-bottom: 1rem;
 }
 
+/* Carousel Container */
 .partners-carousel {
+    width: 100%;
+    overflow: hidden;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
+/* Carousel Track */
+.carousel-track {
+    display: flex;
+    animation: slide 20s linear infinite;
+}
+
+/* Carousel Images */
 .partners-carousel img {
-    height: 50px;
-    opacity: 0.8;
+    height: 80px; /* Increase logo size */
+    margin: 0 15px;
     transition: opacity 0.3s;
 }
 
 .partners-carousel img:hover {
     opacity: 1;
+}
+
+/* Keyframes for Sliding Effect */
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
 }
 
 /* General Footer Styling */
