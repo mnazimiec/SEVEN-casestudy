@@ -27,17 +27,25 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.8);
     padding: 1rem 2rem;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: #FFF; /* White text */
+    position: relative;
     z-index: 10;
 }
 
-.logo img {
-    height: 50px;
+.header-left, .header-center, .header-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.header-center {
+    justify-content: center;
+}
+
+.header-right {
+    justify-content: flex-end;
 }
 
 .header-nav ul {
@@ -45,30 +53,44 @@ a:hover {
     display: flex;
     margin: 0;
     padding: 0;
+    gap: 2rem; /* Space between links */
 }
 
 .header-nav ul li {
-    margin: 0 1rem;
+    margin: 0;
 }
 
-.header-button .btn {
-    background-color: #203D26;
+.header-nav ul li a {
     color: #FFF;
-    padding: 0.5rem 1.5rem;
-    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+}
+
+.header-nav ul li a:hover {
+    border-bottom: 2px solid #FFF; /* Underline on hover */
+}
+
+.logo {
+    height: 60px; /* Adjust size based on your logo */
+    filter: brightness(0) invert(1); /* Ensures the logo is white */
 }
 
 .book-btn {
     background-color: #FFF;
-    color: #203D26;
-    border: 2px solid #203D26;
-    padding: 0.5rem 1rem;
+    color: #000;
+    padding: 0.5rem 1.5rem;
     border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
 }
 
 .book-btn:hover {
-    background-color: #203D26;
-    color: #FFF;
+    background-color: #e0e0e0;
 }
 
 /* Hero Section */
