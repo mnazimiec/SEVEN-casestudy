@@ -22,6 +22,13 @@ a:hover {
     color: #0E0E0D;
 }
 
+/* Common Background Image */
+.header-background {
+    background-image: url('../components/img/pexels-aaronmello-176162.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
 /* Page Header */
 .page-header {
     display: flex;
